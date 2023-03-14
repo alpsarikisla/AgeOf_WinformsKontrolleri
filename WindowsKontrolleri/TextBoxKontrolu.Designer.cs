@@ -46,9 +46,14 @@
             this.label8 = new System.Windows.Forms.Label();
             this.btn_goster = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mtb_telefon = new System.Windows.Forms.MaskedTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.nud_numara = new System.Windows.Forms.NumericUpDown();
+            this.nud_label = new System.Windows.Forms.Label();
+            this.btn_telefongoster = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_numara)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -72,7 +77,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(24, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 10);
+            this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Multiline Text:";
             // 
@@ -97,7 +102,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(24, 135);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 10);
+            this.label3.Size = new System.Drawing.Size(76, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Sınırlı TextBox:";
             // 
@@ -114,7 +119,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(24, 161);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 10);
+            this.label4.Size = new System.Drawing.Size(81, 13);
             this.label4.TabIndex = 1;
             this.label4.Text = "Password Char:";
             // 
@@ -131,7 +136,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(24, 187);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 10);
+            this.label5.Size = new System.Drawing.Size(118, 13);
             this.label5.TabIndex = 1;
             this.label5.Text = "System Password Char:";
             // 
@@ -149,7 +154,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(24, 213);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 10);
+            this.label6.Size = new System.Drawing.Size(97, 13);
             this.label6.TabIndex = 1;
             this.label6.Text = "Readonly TextBox:";
             // 
@@ -167,7 +172,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(24, 239);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 10);
+            this.label7.Size = new System.Drawing.Size(91, 13);
             this.label7.TabIndex = 1;
             this.label7.Text = "Enabled TextBox:";
             // 
@@ -184,7 +189,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(24, 265);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 10);
+            this.label8.Size = new System.Drawing.Size(82, 13);
             this.label8.TabIndex = 1;
             this.label8.Text = "Visible TextBox:";
             // 
@@ -192,7 +197,7 @@
             // 
             this.btn_goster.Location = new System.Drawing.Point(331, 260);
             this.btn_goster.Name = "btn_goster";
-            this.btn_goster.Size = new System.Drawing.Size(64, 23);
+            this.btn_goster.Size = new System.Drawing.Size(97, 23);
             this.btn_goster.TabIndex = 5;
             this.btn_goster.Text = "Göster";
             this.btn_goster.UseVisualStyleBackColor = true;
@@ -207,20 +212,20 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "Telefon No:";
             // 
-            // maskedTextBox1
+            // mtb_telefon
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(159, 288);
-            this.maskedTextBox1.Mask = "(999) 000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(166, 20);
-            this.maskedTextBox1.TabIndex = 6;
+            this.mtb_telefon.Location = new System.Drawing.Point(159, 288);
+            this.mtb_telefon.Mask = "(999) 000-0000";
+            this.mtb_telefon.Name = "mtb_telefon";
+            this.mtb_telefon.Size = new System.Drawing.Size(166, 20);
+            this.mtb_telefon.TabIndex = 6;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(24, 317);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(43, 10);
+            this.label10.Size = new System.Drawing.Size(54, 13);
             this.label10.TabIndex = 1;
             this.label10.Text = "Kimlik No:";
             // 
@@ -232,13 +237,59 @@
             this.maskedTextBox2.Size = new System.Drawing.Size(166, 20);
             this.maskedTextBox2.TabIndex = 7;
             // 
+            // nud_numara
+            // 
+            this.nud_numara.Location = new System.Drawing.Point(159, 340);
+            this.nud_numara.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.nud_numara.Name = "nud_numara";
+            this.nud_numara.Size = new System.Drawing.Size(166, 20);
+            this.nud_numara.TabIndex = 8;
+            this.nud_numara.ThousandsSeparator = true;
+            // 
+            // nud_label
+            // 
+            this.nud_label.AutoSize = true;
+            this.nud_label.Location = new System.Drawing.Point(24, 342);
+            this.nud_label.Name = "nud_label";
+            this.nud_label.Size = new System.Drawing.Size(47, 13);
+            this.nud_label.TabIndex = 9;
+            this.nud_label.Text = "Numara:";
+            // 
+            // btn_telefongoster
+            // 
+            this.btn_telefongoster.Location = new System.Drawing.Point(331, 288);
+            this.btn_telefongoster.Name = "btn_telefongoster";
+            this.btn_telefongoster.Size = new System.Drawing.Size(97, 23);
+            this.btn_telefongoster.TabIndex = 10;
+            this.btn_telefongoster.Text = "Göster";
+            this.btn_telefongoster.UseVisualStyleBackColor = true;
+            this.btn_telefongoster.Click += new System.EventHandler(this.btn_telefongoster_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(331, 337);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Numara Göster";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // TextBoxKontrolu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_telefongoster);
+            this.Controls.Add(this.nud_label);
+            this.Controls.Add(this.nud_numara);
             this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.mtb_telefon);
             this.Controls.Add(this.btn_goster);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
@@ -260,6 +311,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "TextBoxKontrolu";
             this.Text = "TextBoxKontrolu";
+            ((System.ComponentModel.ISupportInitialize)(this.nud_numara)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,8 +337,12 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_goster;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtb_telefon;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.NumericUpDown nud_numara;
+        private System.Windows.Forms.Label nud_label;
+        private System.Windows.Forms.Button btn_telefongoster;
+        private System.Windows.Forms.Button button1;
     }
 }

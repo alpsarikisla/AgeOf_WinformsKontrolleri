@@ -30,5 +30,15 @@ namespace WindowsKontrolleri
                 btn_goster.Text = "Gizle";
             }
         }
+
+        private void btn_telefongoster_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(mtb_telefon.Text, "Telefon No");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(nud_numara.Value.ToString());
+        }
     }
 }
