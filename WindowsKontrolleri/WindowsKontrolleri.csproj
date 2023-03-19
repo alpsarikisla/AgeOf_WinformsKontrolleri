@@ -58,6 +58,18 @@
     <Compile Include="ButtonKontrolu.Designer.cs">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckBoxRadioButtonKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckBoxRadioButtonKontrolu.Designer.cs">
+      <DependentUpon>CheckBoxRadioButtonKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBoxKontrolu.Designer.cs">
+      <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,8 +88,27 @@
     <Compile Include="KodIleKontrolOlusturma.Designer.cs">
       <DependentUpon>KodIleKontrolOlusturma.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBoxKontrolu.Designer.cs">
+      <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marka.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBarKontrolu.Designer.cs">
+      <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TarihKontrolleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TarihKontrolleri.Designer.cs">
+      <DependentUpon>TarihKontrolleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="TextBoxKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,11 +121,23 @@
     <EmbeddedResource Include="ButtonKontrolu.resx">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckBoxRadioButtonKontrolu.resx">
+      <DependentUpon>CheckBoxRadioButtonKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBoxKontrolu.resx">
+      <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HesapMakinesi.resx">
       <DependentUpon>HesapMakinesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KodIleKontrolOlusturma.resx">
       <DependentUpon>KodIleKontrolOlusturma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxKontrolu.resx">
+      <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarKontrolu.resx">
+      <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +148,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TarihKontrolleri.resx">
+      <DependentUpon>TarihKontrolleri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TextBoxKontrolu.resx">
       <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
