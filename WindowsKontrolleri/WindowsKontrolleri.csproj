@@ -76,6 +76,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormIcindenFormCagirma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIcindenFormCagirma.Designer.cs">
+      <DependentUpon>FormIcindenFormCagirma.cs</DependentUpon>
+    </Compile>
     <Compile Include="HesapMakinesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,18 @@
       <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
     </Compile>
     <Compile Include="Marka.cs" />
+    <Compile Include="MenuKullanimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuKullanimi.Designer.cs">
+      <DependentUpon>MenuKullanimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelKayitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelKayitForm.Designer.cs">
+      <DependentUpon>PersonelKayitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProgressBarKontrolu.cs">
       <SubType>Form</SubType>
@@ -127,6 +145,9 @@
     <EmbeddedResource Include="ComboBoxKontrolu.resx">
       <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormIcindenFormCagirma.resx">
+      <DependentUpon>FormIcindenFormCagirma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HesapMakinesi.resx">
       <DependentUpon>HesapMakinesi.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListBoxKontrolu.resx">
       <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuKullanimi.resx">
+      <DependentUpon>MenuKullanimi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProgressBarKontrolu.resx">
       <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
@@ -147,6 +171,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TarihKontrolleri.resx">
       <DependentUpon>TarihKontrolleri.cs</DependentUpon>
@@ -166,6 +191,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resimler\1891023_cancel_cercle_close_delete_dismiss_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

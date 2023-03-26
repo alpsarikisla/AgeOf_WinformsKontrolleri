@@ -44,3 +44,10 @@ C:\Users\Alp\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\D
 C:\Users\Alp\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.TarihKontrolleri.resources
 C:\Users\Alp\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.ProgressBarKontrolu.resources
 C:\Users\Alp\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.CheckBoxRadioButtonKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.CheckBoxRadioButtonKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.ComboBoxKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.FormIcindenFormCagirma.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.ListBoxKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.ProgressBarKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.TarihKontrolleri.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.MenuKullanimi.resources
