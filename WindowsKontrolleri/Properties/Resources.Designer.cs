@@ -63,6 +63,16 @@ namespace WindowsKontrolleri.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _000026 {
+            get {
+                object obj = ResourceManager.GetObject("000026", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1891023_cancel_cercle_close_delete_dismiss_icon {
             get {
                 object obj = ResourceManager.GetObject("1891023_cancel_cercle_close_delete_dismiss_icon", resourceCulture);

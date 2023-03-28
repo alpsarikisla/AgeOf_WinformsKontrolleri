@@ -16,7 +16,7 @@ namespace WindowsKontrolleri
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuKullanimi());
+            Application.Run(new ProgressBarKontrolu());
         }
     }
 }

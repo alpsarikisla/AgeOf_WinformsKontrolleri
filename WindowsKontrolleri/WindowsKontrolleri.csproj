@@ -113,6 +113,12 @@
     <Compile Include="PersonelKayitForm.Designer.cs">
       <DependentUpon>PersonelKayitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PictureBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBoxKontrolu.Designer.cs">
+      <DependentUpon>PictureBoxKontrolu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProgressBarKontrolu.cs">
       <SubType>Form</SubType>
@@ -121,6 +127,12 @@
       <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RichTextBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxKontrolu.Designer.cs">
+      <DependentUpon>RichTextBoxKontrolu.cs</DependentUpon>
+    </Compile>
     <Compile Include="TarihKontrolleri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +144,12 @@
     </Compile>
     <Compile Include="TextBoxKontrolu.Designer.cs">
       <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebBrowserKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebBrowserKontrolu.Designer.cs">
+      <DependentUpon>WebBrowserKontrolu.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="BasitHesapMakinesi.resx">
       <DependentUpon>BasitHesapMakinesi.cs</DependentUpon>
@@ -160,6 +178,9 @@
     <EmbeddedResource Include="MenuKullanimi.resx">
       <DependentUpon>MenuKullanimi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PictureBoxKontrolu.resx">
+      <DependentUpon>PictureBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProgressBarKontrolu.resx">
       <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,11 +194,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RichTextBoxKontrolu.resx">
+      <DependentUpon>RichTextBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TarihKontrolleri.resx">
       <DependentUpon>TarihKontrolleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextBoxKontrolu.resx">
       <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowserKontrolu.resx">
+      <DependentUpon>WebBrowserKontrolu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -193,6 +220,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resimler\000026.jpg" />
     <Content Include="Resimler\1891023_cancel_cercle_close_delete_dismiss_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

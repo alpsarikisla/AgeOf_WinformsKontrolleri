@@ -51,3 +51,6 @@ C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\D
 C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.ProgressBarKontrolu.resources
 C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.TarihKontrolleri.resources
 C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.MenuKullanimi.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.PictureBoxKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.RichTextBoxKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.WebBrowserKontrolu.resources
