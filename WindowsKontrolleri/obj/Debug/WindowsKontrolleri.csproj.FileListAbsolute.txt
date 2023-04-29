@@ -54,3 +54,4 @@ C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\D
 C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.PictureBoxKontrolu.resources
 C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.RichTextBoxKontrolu.resources
 C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.WebBrowserKontrolu.resources
+C:\Users\303\Documents\GitHub\AgeOf_WinformsKontrolleri\WindowsKontrolleri\obj\Debug\WindowsKontrolleri.BowserOdevi.resources

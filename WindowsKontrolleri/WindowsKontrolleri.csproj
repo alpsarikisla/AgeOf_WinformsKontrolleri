@@ -52,6 +52,12 @@
     <Compile Include="BasitHesapMakinesi.Designer.cs">
       <DependentUpon>BasitHesapMakinesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="BowserOdevi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BowserOdevi.Designer.cs">
+      <DependentUpon>BowserOdevi.cs</DependentUpon>
+    </Compile>
     <Compile Include="ButtonKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="BasitHesapMakinesi.resx">
       <DependentUpon>BasitHesapMakinesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BowserOdevi.resx">
+      <DependentUpon>BowserOdevi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ButtonKontrolu.resx">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
